@@ -5,6 +5,7 @@ Run the commad "npm run wdio" from terminal
 
 News Broken Link :
 
+
 Description: November news link is broken.
 
 Steps to Reproduce :

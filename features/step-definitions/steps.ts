@@ -18,6 +18,7 @@ When("Click on the Contact Group", async ()=> {
     await LoginPage.clickContactGroup.click()
 });
 
+
 Given("Verify news exists {string}", async (message) => {
     await expect(LoginPage.verifyNewsExists).toBeExisting();
     await expect(LoginPage.verifyNewsExists).toHaveTextContaining(message);
